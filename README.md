@@ -68,9 +68,9 @@ Step 3 : Run the spring boot application by linked database docker
 
 # Swagger URL
 
-	http://{host_name/ip_addr}:8086/swagger-ui.html
+	http://{host_name/ip_addr}:8080/swagger-ui.html
 
 # Sample REQUEST for /search-users API
 
-	http://{host_name/ip_addr}:8086/search-users?query=firstName:fname1
-	http://{host_name/ip_addr}:8086/search-users?query=firstName:fname1,lastName:lname1
+	http://{host_name/ip_addr}:8080/search-users?query=firstName:fname1
+	http://{host_name/ip_addr}:8080/search-users?query=firstName:fname1,lastName:lname1
